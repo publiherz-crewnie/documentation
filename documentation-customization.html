@@ -299,6 +299,52 @@
             </div>
           </div>
           <div class="content-body"><!--2-columns-->
+
+<section id="gradient-color-menu-bg" class="card">
+    <div class="card-header">
+        <h4 class="card-title">Components</h4>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <div class="card-text">
+                <b>General SASS variables, colors, and fonts are imported from:</b>
+				<pre class="language-HTML">@import './src/assets/sass/scss/_variables.scss';</pre>
+				<br>Color variables are also defined in the next section (<i>Gradient Color Menu Background</i>).
+				<br>
+				<br>
+				<b>Login and registration pages are located in:</b>
+				<i>
+					<br>app/pages/system-pages/login/
+					<br>app/pages/system-pages/register/
+				</i>
+				<br>
+				<br>
+				<b>Crewnies page:</b>
+				<i><br>app/pages/full-pages/crewnies/</i>
+				<br>
+				<br>
+				<b>General menu:</b>
+				<i><br>app/shared/topbar</i>
+				<br>
+				<br>
+				<b>Wizards:</b>
+				<i>
+					<br>app/pages/system-pages/wizards/register-crewnie/personal/
+					<br>app/pages/system-pages/wizards/register-crewnie/address/
+					<br>app/pages/system-pages/wizards/register-crewnie/profile/
+				</i>
+				<br>
+				<br>
+				<b>Wizard uses for profile:</b>
+				<i>
+					<br>https://github.com/cstefanache/angular2-img-cropper/
+					<br>https://github.com/valor-software/ng2-file-upload
+				</i>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="customization">
     <!-- Solid Color Background Menu -->
     <section id="solid-color-menu-bg" class="card">
@@ -319,6 +365,26 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <th scope="row"><code>$orange-crew</code></th>
+                                    <td>You can fill $orange-crew color in the menu background by changing <code>$orange-crew</code> attribute's value to <code>#FC4000</code> found in the <code>./src/assets/sass/scss/_variables.scss</code> file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><code>$danger-crew</code></th>
+                                    <td>You can fill $danger-crew color in the menu background by changing <code>darken($danger-crew, 10%)</code> attribute's value to <code>darken($orange-crew, 10%)</code> found in the <code>./src/assets/sass/scss/_variables.scss</code> file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><code>$light-crew</code></th>
+                                    <td>You can fill $light-crew color in the menu background by changing <code>$light-crew</code> attribute's value to <code>#A3B6C5</code> found in the <code>./src/assets/sass/scss/_variables.scss</code> file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><code>$green-crew</code></th>
+                                    <td>You can fill $green-crew color in the menu background by changing <code>$green-crew</code> attribute's value to <code>#39b54a</code> found in the <code>./src/assets/sass/scss/_variables.scss</code> file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><code>$darker-gray</code></th>
+                                    <td>You can fill $darker-gray color in the menu background by changing <code>$darker-crew</code> attribute's value to <code>#6666666</code> found in the <code>./src/assets/sass/scss/_variables.scss</code> file.</td>
+                                </tr>
                                 <tr>
                                     <th scope="row"><code>black</code></th>
                                     <td>You can fill black color in the menu background by changing <code>data-background-color</code> attribute's value to <code>black</code> found in the <code>src/app/layouts/full/full-layout.component.html</code> file.</td>
@@ -355,6 +421,8 @@
         </div>
     </section>
     <!--/ Solid Color Background Menu -->
+
+
 
     <!-- Gradient Color Background Menu -->
     <section id="gradient-color-menu-bg" class="card">
